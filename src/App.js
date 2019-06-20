@@ -26,18 +26,18 @@ class App extends Component {
 
   return (
     <div className="App">
-      <Navbar brand={                    
-        <span className="brand">
-          Tressa Ries
+      <Navbar brand={ 
+                  
+        <span className="brand" id="snc-logo">
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tressa Ries
         </span>  
         } 
         fixed={true}
         centerLogo={true}>
-        
-        <NavItem 
-        href="#" className="snc-logo">
+        {/* <span
+        className="snc-logo">
           &nbsp;
-        </NavItem>
+        </span> */}
        </Navbar>
       <div className="container">     
         <Collapsible popout>
