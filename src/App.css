@@ -1,11 +1,11 @@
 body {
-  background-color: #2b5136;
+  background-color: #1A472B;
 }
 
 
 .container {
   text-align: center;
-  background-color: #2b5136;
+  background-color: #1A472B;
 }
 
 .collapsible {
@@ -14,15 +14,14 @@ body {
 
 .collapsible-header {
   color: #730202;
-  background-color: #f2bd54;
+  background-color: #EDBD3D;
   font-weight: bold;
   font-size: 160%;
-  text-shadow: 0px 1px 1px #2b5136;
-
+  text-shadow: 0px 1px 1px #1A472B;
 }
 
 .collapsible-body {
-  color: #f2bd54;
+  color: #EDBD3D;
   font-weight: bold;
   font-size: 132%;
   text-align: left;
@@ -35,12 +34,12 @@ body {
 }
 
 .nav-wrapper {
-  background-color: #f2bd54;
+  background-color: #EDBD3D;
 }
 
 span.brand-logo {
   color: #730202; 
-  text-shadow: 0 1px 1px #2b5136, 0px 1px 1px black;
+  text-shadow: 0 1px 1px #1A472B, 0px 1px 1px black;
   font-weight: bolder;
   font-size: 350%;
 }
@@ -54,11 +53,20 @@ span.brand-logo {
 }
 
 nav .material-icons{
-  color: #f2bd54;
+  color: #EDBD3D;
 }
 
 .collapsible-header .material-icons {
-  color: #2b5136;
+  color: #1A472B;
+}
+
+.snc-logo {
+  width: 600%;
+  background: #EDBD3D url("./SNC-LOGO.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 45%;
+  margin-left: 500%;
 }
 
 
@@ -76,6 +84,10 @@ nav .material-icons{
 
   .collapsible-body {
     font-size: 115%;
+  }
+
+  .snc-logo {
+    margin-left: 0%;
   }
 }
 
