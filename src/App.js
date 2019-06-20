@@ -17,7 +17,8 @@ class App extends Component {
       list7: [{point: "Managed Budget, Forecast, and Requests"}, {point: "Oversaw Expenditure Compliance and Allowability"}, {point: "Enacted Deficit Account Resolution"}],
       list8: [{point: "Ensured Compliance with Employment Related Laws and Regulations"}, {point: "Managed Financial Aspects of Benefit Plans"}, {point: "Led Onboarding Activities for New Hires"}],
       list9: [{point: "Developed, Revised, and Enforced University Fiscal Policy and Procedures"}, {point: "Engineered Enterprise Risk Management Structure, Process, and Implementation"}, {point: "Mitigated Risk through Policy and Insurance Review"}],
-      list10: [{point: "World Class Liberal Arts Institution"}, {point: "Development of the Whole Person"}, {point: "Value Tradition While Forward Thinking"}]
+      list10: [{point: "World Class Liberal Arts Institution"}, {point: "Development of the Whole Person"}, {point: "Value Tradition While Forward Thinking"}],
+      list11: [{point: "Developed Rates for Labs and Conference Space"}, {point: "Ensured Rates were Fair and Competitive"}]
     };
   }
 
@@ -83,6 +84,16 @@ class App extends Component {
             <CollapsibleItem header="Investment & Endowment Management" icon="done_outline">
               <Table className="table_class">
                 {this.state.list5.map((listInfo, index) => 
+                  <TableBody
+                    key = {index}
+                    listItem = {listInfo.point}
+                  />
+                )}
+              </Table>         
+            </CollapsibleItem>
+            <CollapsibleItem header="Auxiliary Services" icon="done_outline">
+              <Table className="table_class">
+                {this.state.list11.map((listInfo, index) => 
                   <TableBody
                     key = {index}
                     listItem = {listInfo.point}
